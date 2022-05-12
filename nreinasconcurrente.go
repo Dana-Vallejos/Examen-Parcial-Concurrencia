@@ -43,7 +43,7 @@ func draw_table(table []int) {
 			if table[row] == col {
 				row_string += "Q"
 			} else {
-				row_string += "."
+				row_string += "*"
 			}
 		}
 		fmt.Println(row_string)
